@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.container{
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+}
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.container-2{
+    border-radius: 44px;
+    box-shadow: inset 0 0 60px 10px #7895CB;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+}
+.container-2:hover .image1{
+    display: block;
+}
+.button{
+    transition: 1s ease-in-out;
+    height: 70px;
+    width: 200px;
+    font-size: larger;
+    text-transform: uppercase;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 3px solid #CECE5A;
+    
+
+}
+.button:hover{
+    transform: rotateX(360deg);
+}
+
+.Celsius{
+    height: 80px;
+    width: 210px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Kalam', cursive;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    filter: drop-shadow(2px 2px 2px black);
+}
+#Fahrenheit{
+    height: 80px;
+    width: 210px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Kalam', cursive;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    filter: drop-shadow(6px 6px 4px black);
+}
+label{
+    color: black;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: xx-large;
+    padding-right: 20px;
+    color: #338CC2;
+    filter: drop-shadow(4px 3px 3px #F4D160);
+    letter-spacing: 3px;
+}
+.fahren{
+    display: flex;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image1{
+    height: 320px;
+    position: absolute;
+    left: 413.5px;
+    display: none;
+}
+
